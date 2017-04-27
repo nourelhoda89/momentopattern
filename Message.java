@@ -1,9 +1,9 @@
 package momentopattern;
 
-public final class Momento{
+public final class Message{
    private String state;
    
-   public Momento(String state){
+   public void Momento(String state){
       this.state=state;
    }
    public String getState(){

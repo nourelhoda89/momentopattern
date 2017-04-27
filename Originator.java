@@ -2,20 +2,23 @@ package momentopattern;
 import java.util.*;
 
 public class Originator{
-   private String state;
+   private State state;
+   private String msg;
    
-   public void setState(String state){
+   public void setState(State state,String msg){
       this.state=state;  
    }
-   public String getState(){
+   public State getState(){
       return state;
    }
    public void save(){
-   state= getState().Momento(state);
-   
+   //still need to work on it 
+   switch State
+    case Debug 
+    msg =new DebugMessage(msg);   
    }
-   public Momento getStateFromCareTaker(int number){
-      return new Momento(state);
+   public Message getStateFromCareTaker(int number){
+   state= Message(state).getState(); 
    
    }
 }

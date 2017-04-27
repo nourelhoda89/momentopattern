@@ -2,10 +2,10 @@ package momentopattern;
 import java.util.*;
 
 public class CareTaker{
-   List <Momento> events= new ArrayList<Momento>();
+   List <Message> events= new ArrayList<Message>();
    
-   void add(Momento momento){
-      events.add(momento);
+   void add(Message state){
+      events.add(state);
    } 
  
    
